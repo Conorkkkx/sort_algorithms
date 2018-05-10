@@ -4,20 +4,21 @@
 #done_List = 完成插入排序列表
 
 import random
-
 def insertSort(input_List):
-    for i in range(1,len(input_List)):
-        x = input_List[i]
-        j = i
+    for i in range(len(input_List)-1):
+        x = input_List[i+1]
+        j = i+1
         while j>0 and input_List[j-1] > x :
             input_List[j] = input_List[j-1]
             j -= 1
         input_List[j] = x
         print(input_List)
     return input_List
-
+#二分法查找
+def binarySearch():
+    pass
 if __name__ == '__main__':
-    n = random.randint(1,5)
+    n = random.randint(1,20)
     input_List = []
     for i in range(n):
         input_List.append(random.randint(1,999))
