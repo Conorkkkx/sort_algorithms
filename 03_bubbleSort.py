@@ -1,6 +1,6 @@
 #_*_ coding:utf-8 _*_
 
-#冒泡排序(升序)
+#冒泡排序
 #input_List = 尚未冒泡排序列表
 #done_List = 完成冒泡排序列表
 
@@ -27,4 +27,4 @@ if __name__ == '__main__':
         input_List.append(random.randint(1,999))
     print('\n生成随机列表:',input_List,'\n')
     done_List = bubbleSort(input_List)
-    print('\n冒泡(升序)排序后:',done_List,"\n")
+    print('\n冒泡排序后:',done_List,"\n")

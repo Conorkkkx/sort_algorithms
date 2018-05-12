@@ -26,4 +26,4 @@ if __name__ == '__main__':
         input_List.append(random.randint(1,999))
     print('\n生成%d位随机列表:'%n,input_List,'\n')
     done_List = selectSort(input_List)
-    print('\n插入排序后:',done_List,"\n")
+    print('\n选择排序后:',done_List,"\n")
